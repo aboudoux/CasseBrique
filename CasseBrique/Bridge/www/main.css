@@ -1,0 +1,50 @@
+﻿body
+{
+    margin: 0;
+}
+
+#gameboard {
+    width: 506px;
+    height:400px;
+    background: black;
+}
+
+#plateau {
+    width: 90px;
+    height: 10px;
+    position: absolute;
+    top: 375px;
+    left: 210px;
+    background: white;
+}
+
+#lives {
+    text-align: left;
+    color: white;
+    font-family: arial;
+    display: inline;
+}
+
+#score {
+    text-align: right;
+    color: white;
+    font-family: arial;
+    float: right;
+}
+
+#infos {
+    color: white;
+    font-family: arial;
+    top: 230px;
+    text-align: center;
+    position: relative;
+}
+
+.ball {
+    width: 10px;
+    height: 10px;
+    left: 250px;
+    top: 225px;
+    position: absolute;
+    background: white;
+}
